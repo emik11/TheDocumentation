@@ -5,14 +5,15 @@ theme:
     logo: fontawesome/solid/droplet
   font:
     text: Inter
-    code: JetBrains Mono
+    code: Fira Code
   name: material
   palette:
     scheme: slate
     primary: custom
     accent: custom
   features:
-    - navigation.footer
+    - navigation.tabs
+    - navigation.top
 
 markdown_extensions:
   - attr_list

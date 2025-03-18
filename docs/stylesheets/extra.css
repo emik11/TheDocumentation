@@ -1,5 +1,12 @@
 :root  > * {
-    --md-primary-fg-color:        #EE0F0F;
-    --md-primary-fg-color--light: #ECB7B7;
-    --md-primary-fg-color--dark:  #90030C;
-  }
+    --md-default-bg-color: #202020;      /* Background color */
+
+    --md-primary-fg-color: #2d2d2d;      /* Header color */
+
+    --md-primary-bg-color: #e7e7e7;      /* Header font color */
+    --md-accent-fg-color: #e7e7e7;       /* Accent color */ 
+    --md-typeset-a-color: #e7e7e7;       /* Clicked link color */
+
+    --md-footer-bg-color: #141414;       /* Navigation color */
+    --md-footer-bg-color--dark: #070707; /* Copyright color */
+}

@@ -1,5 +1,8 @@
 site_name: The Documentation
 theme:
+  favicon: assets/droplet.svg
+  icon:
+    logo: fontawesome/solid/droplet
   font:
     text: Inter
     code: JetBrains Mono

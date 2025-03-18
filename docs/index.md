@@ -1,19 +1,3 @@
-# Welcome to MkDocs
+# Welcome to The Documentation
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
-
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
-
-Test emoji :beer:
+*The Documentation* is a dedicated resource for capturing and organizing knowledge in the fields of penetration testing and cybersecurity. This site serves as a living archive, continually evolving with fresh insights, techniques, and methodologies as they are learned and explored.

@@ -1,0 +1,5 @@
+:root  > * {
+    --md-primary-fg-color: #3d4353; /* Header color */
+    --md-primary-bg-color: #dfe1e2; /* Header font color */
+    --md-accent-fg-color: #f7f6f9 /* Accent color */ 
+  }

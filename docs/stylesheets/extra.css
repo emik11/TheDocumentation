@@ -10,8 +10,3 @@
     --md-footer-bg-color: #141414;       /* Navigation color */
     --md-footer-bg-color--dark: #070707; /* Copyright color */
 }
-
-body {
-    background: #202020;
-    --md-default-bg-color: #202020;
-}

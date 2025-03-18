@@ -9,7 +9,8 @@ theme:
   name: material
   palette:
     scheme: slate
-    primary: blue
+    primary: custom
+    accent: custom
   features:
     - navigation.footer
 
@@ -34,8 +35,8 @@ markdown_extensions:
   - admonition
   - pymdownx.details
 
-#extra_css:
-#  - stylesheets/extra.css
+extra_css:
+  - stylesheets/extra.css
 
 extra:
   generator: false

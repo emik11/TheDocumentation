@@ -2,7 +2,7 @@
     --md-default-bg-color: #202020;      /* Background color */
 
     --md-primary-fg-color: #2d2d2d;      /* Header color */
-    
+
     --md-primary-bg-color: #e7e7e7;      /* Header font color */
     --md-accent-fg-color: #e7e7e7;       /* Accent color */ 
     --md-typeset-a-color: #e7e7e7;       /* Clicked link color */
@@ -14,4 +14,4 @@
 body {
     background: #202020;
     --md-default-bg-color: #202020;
-  }
+}

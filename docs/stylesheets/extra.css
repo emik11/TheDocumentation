@@ -1,5 +1,17 @@
 :root  > * {
-    --md-primary-fg-color: #3d4353; /* Header color */
-    --md-primary-bg-color: #dfe1e2; /* Header font color */
-    --md-accent-fg-color: #f7f6f9 /* Accent color */ 
+    --md-default-bg-color: #202020;      /* Background color */
+
+    --md-primary-fg-color: #2d2d2d;      /* Header color */
+    
+    --md-primary-bg-color: #e7e7e7;      /* Header font color */
+    --md-accent-fg-color: #e7e7e7;       /* Accent color */ 
+    --md-typeset-a-color: #e7e7e7;       /* Clicked link color */
+
+    --md-footer-bg-color: #141414;       /* Navigation color */
+    --md-footer-bg-color--dark: #070707; /* Copyright color */
+}
+
+body {
+    background: #202020;
+    --md-default-bg-color: #202020;
   }

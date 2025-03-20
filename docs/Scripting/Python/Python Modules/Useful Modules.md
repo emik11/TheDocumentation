@@ -3,10 +3,10 @@ authors: Emil Andrzejewski
 date: 19.03.2025
 weight: 1
 ---
-### Sys
+### sys
 [Official documentation](https://docs.python.org/3/library/sys.html "sys — System-specific parameters and functions")
 
-```py title="Get info"
+```py title="Get info" linenums="1"
 import sys
 print(sys.version)
 print(sys.executable) # Currently used Python binary
@@ -15,21 +15,21 @@ print(sys.path)       # Packages path
 print(sys.modules)    # Available modules
 ```
 
-```py title="Process input from standard input"
+```py title="Process input from standard input" linenums="1"
 for line in sys.stdin:
     if line.strip() == "exit":
         break
     sys.stdout.write(f">> {line}")
 ```
 
-```py title="Print directly from standard output - in one line"
+```py title="Print directly from standard output - in one line" linenums="1"
 for i in range(1,5):
     sys.stdout.write(str(i))
     sys.stdout.flush()
     # Output: 1234
 ```
 
-```py title="Loading bar using stdout"
+```py title="Loading bar using stdout" linenums="1"
 import time
 
 for i in range(0, 51):
@@ -39,7 +39,7 @@ for i in range(0, 51):
 sys.stdout.write("\n")
 ```
 
-```py title="Control user provided arguments"
+```py title="Control user provided arguments" linenums="1"
 print(sys.argv)
 # Output: ['main.py']           - if ran without any arguments
 # Output: ['main.py', '1', '2'] - if ran like "python main.py 1 2" (1)
@@ -63,7 +63,9 @@ sys.exit(0) # (3)
 !!! note "Exit code verification"
     To verify the exit code with which the program terminated, you can use the `echo $?` command in Bash.
 
-### Requests
+---
+
+### requests
 [Official documentation](https://requests.readthedocs.io/en/latest/ "Requests: HTTP for Humans")
 
 ```py title="Response data" linenums="1"
@@ -124,10 +126,12 @@ response = x.get('http://httpbin.org/cookies')
 print(response.text)
 ```
 
-### Pwntools
+---
+
+### pwntools
 [Official documentation](https://docs.pwntools.com/en/latest/# "pwntools")
 
-```py
+```py title="Pwntools examples" linenums="1"
 from pwn import *
 
 print(cyclic(50))
@@ -178,3 +182,5 @@ print(sha1sumhex(b"hello"))
 print(bits(b'a'))
 print(unbits([0,1,1,0,0,0,0,1]))
 ```
+
+---

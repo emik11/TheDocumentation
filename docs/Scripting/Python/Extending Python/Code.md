@@ -123,3 +123,56 @@ sys.exit(0) # (3)
 
 !!! note "Exit code verification"
     To verify the exit code with which the program terminated, you can use the `echo $?` command in Bash.
+
+### Pwntools
+```py
+from pwn import *
+
+print(cyclic(50))
+print(cyclic_find("laaa"))
+
+print(shellcraft.sh())
+print(hexdump(asm(shellcraft.sh())))
+
+# Run process
+p = process("/bin/sh")
+p.sendline("echo hello;")
+p.interactive()
+
+# Connect remotely
+r = remote("127.0.0.1", 1234)
+r.sendline("hello!")
+r.interactive
+r.close
+
+# Packing numbers
+print(p32(0x13371337))
+print(hex(u32(p32(0x13371337))))
+
+# Loading files
+l = ELF('/bin/bash')
+
+print(hex(l.address))
+print(hex(l.entry))
+
+print(hex(l.got['write']))
+print(hex(l.plt['write']))
+
+for address in l.search(b'/bin/sh\x00'):
+    print(hex(address))
+
+print(hex(next(l.search(asm('jmp esp')))))
+
+r = ROP(l)
+print(r.rbx)
+
+# Different operations
+print(xor(xor("A", "B"), "A"))
+print(b64e("test"))
+print(b64d("dGVzdA=="))
+print(md5sumhex(b"hello"))
+print(sha1sumhex(b"hello"))
+
+print(bits(b'a'))
+print(unbits([0,1,1,0,0,0,0,1]))
+```

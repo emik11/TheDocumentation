@@ -25,7 +25,7 @@ with open("ssh-common-passwords.txt", "r") as password_list:
                 break
             response.close()
         except paramiko.ssh_exception.AuthenticationException:
-            print("[X] Invalid password!")
+            print("[x] Invalid password!")
         attempts += 1
 ```
 

@@ -1,5 +1,5 @@
 nav:
-  - SSH login brute forcing.md
-  - SHA256 password cracking.md
-  - Exploiting a SQL injection.md
-  - Exploiting a restricted SQL injection.md
+  - SSH Login Brute Forcing.md
+  - SHA256 Password Cracking.md
+  - Exploiting a SQL Injection.md
+  - Exploiting a Restricted SQL Injection.md

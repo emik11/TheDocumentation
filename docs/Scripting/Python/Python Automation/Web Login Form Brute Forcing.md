@@ -2,7 +2,7 @@
 
 ---
 
-This script uses the `requests` module to perform a web login form brute-forceattack.
+This script uses the `requests` module to perform a web login form brute-force attack.
 
 ```py linenums="1"
 import requests

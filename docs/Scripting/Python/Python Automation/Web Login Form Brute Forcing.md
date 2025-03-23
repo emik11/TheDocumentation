@@ -1,8 +1,8 @@
-[documentation ](URL "")
+[requests module 🌐](https://emik11.github.io/TheDocumentation/Scripting/Python/Python%20Modules/Useful%20Modules/#requests "Useful modules #requests")
 
 ---
 
-This script uses the `pwntools` module to perform a SHA-256 password cracking attack.
+This script uses the `requests` module to perform a web login form brute-forceattack.
 
 ```py linenums="1"
 import requests

@@ -2,7 +2,7 @@
 
 ---
 
-This script uses the `pwn` and `paramiko` modules to perform an SSH login brute-force attack.
+This script uses the `pwntools` and `paramiko` modules to perform an SSH login brute-force attack.
 ```py linenums="1"
 from pwn import *
 import paramiko

@@ -1,7 +1,5 @@
 site_name: The Documentation
 
-
-
 theme:
   favicon: assets/book.png
   logo: assets/book.png
